@@ -15,7 +15,7 @@ class ViewController: UIViewController , UIImagePickerControllerDelegate, UINavi
 
     
     let mobil = MobileNet().model
-    let boxcaar = Boxcar_Classification().model
+    let boxcaar = MyImageClassifierBoxcar().model
     
     
     
